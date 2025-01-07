@@ -27,7 +27,24 @@
 @import url(nice-select.css);
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
-
+.header {
+     padding-bottom: 0 !important;
+     margin-bottom: 0 !important;
+ }
+ 
+ .banner_main {
+     padding-top: 0 !important;
+     margin-top: 0 !important;
+ }
+ 
+ .carousel {
+     margin-top: 0 !important;
+ }
+ 
+ .carousel-inner {
+     margin-top: 0 !important;
+ }
+ 
 * {
      box-sizing: border-box !important;
 }
