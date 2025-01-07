@@ -36,146 +36,113 @@
          <div class="loader"><img src="images/loading.gif" alt="#" /></div>
       </div>
       <!-- end loader -->
-<!-- header inner -->
-<div class="header">
-   <div class="container-fluid">
-      <div class="row">
-         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-            <div class="full">
-               <div class="center-desk">
-                  <div class="logo">
-                     <!-- Replace logo.png with company name text -->
-                     <a href="index.html" style="font-size: 18px; font-weight: bold; color: #000; text-decoration: none;">
-                        CENTRAL GLASS COMPANY INC
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-            <nav class="navigation navbar navbar-expand-md navbar-dark ">
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarsExample04">
-                  <ul class="navbar-nav mr-auto">
-                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html"> Home </a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                     </li>
-                     <!--<li class="nav-item">
-                        <a class="nav-link" href="team.html">Our team </a>
-                     </li>-->
-                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
-                     </li>
-                     <!--<li class="nav-item d_none">
-                        <a class="nav-link" href="#">Login</a>
-                     </li>-->
-                     <!--<li class="nav-item d_none">
-                        <a class="nav-link" href="#">Register</a>
-                     </li>-->
-                     <li class="nav-item d_none">
-                        <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                     </li>
-                  </ul>
-               </div>
-            </nav>
-         </div>
-      </div>
-   </div>
-</div>
+<!-- Header Section -->
+<header class="bg-white shadow-sm sticky-top">
+   <nav class="navbar navbar-expand-lg navbar-light container-fluid px-3 py-2">
+       <div class="d-flex align-items-center">
+           <!-- Logo SVG and Company Name -->
+           <a class="navbar-brand d-flex align-items-center" href="index.html">
+               <img src="images/logo.svg" alt="Central Glass Logo" width="40" height="40" class="me-2">
+               <span class="fw-bold text-dark" style="font-size: 1.2rem;">CENTRAL GLASS<br>COMPANY INC</span>
+           </a>
+       </div>
+
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+
+       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+           <ul class="navbar-nav">
+               <li class="nav-item">
+                   <a class="nav-link active fw-semibold" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link fw-semibold" href="about.html">About</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link fw-semibold" href="services.html">Services</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link fw-semibold" href="contact.html">Contact Us</a>
+               </li>
+           </ul>
+       </div>
+   </nav>
 </header>
-<!-- end header inner -->
-<!-- end header inner -->
-      <!-- end header -->
-<!-- banner -->
-<section class="banner_main">
-   <div id="banner1" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-         <li data-target="#banner1" data-slide-to="0" class="active"></li>
-         <li data-target="#banner1" data-slide-to="1"></li>
-         <li data-target="#banner1" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-         <div class="carousel-item active">
-            <div class="container-fluid">
-               <div class="carousel-caption">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <div class="text-bg">
-                           <span style="font-size: 14px;">Glass Installation</span>
-                           <h1 style="font-size: 24px;">Energy-Efficient Windows</h1>
-                           <p style="font-size: 14px;">We specialize in the installation of energy-efficient windows designed to reduce energy consumption and enhance comfort. Our advanced technologies include double or triple glazing, low-E coatings, and gas fills for superior insulation.</p>
-                           <a href="contact.html" style="font-size: 14px;">Contact Us</a> <a href="services.html" style="font-size: 14px;">Get a Quote Now</a>
-                        </div>
-                     </div>
-                     <div class="col-md-6">
-                        <div class="text_img">
-                           <figure><img src="images/window1.png" alt="#" style="width: 100%; height: auto;"/></figure>
-                        </div>
-                     </div>
-                  </div>
+
+<!-- Banner Section -->
+<section class="banner position-relative overflow-hidden bg-light">
+   <div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel">
+       <div class="carousel-inner">
+           <!-- Slide 1 -->
+           <div class="carousel-item active">
+               <div class="container-fluid px-0">
+                   <div class="row align-items-center g-0">
+                       <div class="col-lg-6 p-5">
+                           <div class="banner-content">
+                               <span class="d-block text-primary fw-semibold mb-2">Glass Installation</span>
+                               <h1 class="display-5 fw-bold mb-3">Energy-Efficient Windows</h1>
+                               <p class="lead mb-4">Experience superior insulation with our energy-efficient windows featuring double glazing and low-E coatings.</p>
+                           </div>
+                       </div>
+                       <div class="col-lg-6">
+                           <img src="images/window1.png" class="img-fluid w-100" alt="Energy Efficient Windows"
+                               style="max-height: 600px; object-fit: cover;">
+                       </div>
+                   </div>
                </div>
-            </div>
-         </div>
-         <div class="carousel-item">
-            <div class="container-fluid">
-               <div class="carousel-caption">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <div class="text-bg">
-                           <span style="font-size: 14px;">Custom Glass Solutions</span>
-                           <h1 style="font-size: 24px;">Decorative Glass Panels</h1>
-                           <p style="font-size: 14px;">Our custom glass solutions include decorative glass panels, shower enclosures, and mirrors that elevate the aesthetic appeal of any space. We handle both standard and specialty glass installations with precision and care.</p>
-                           <a href="contact.html" style="font-size: 14px;">Contact Us</a> <a href="services.html" style="font-size: 14px;">Get a Quote Now</a>
-                        </div>
-                     </div>
-                     <div class="col-md-6">
-                        <div class="text_img">
-                           <figure><img src="images/window2.png" alt="#" style="width: 100%; height: auto;"/></figure>
-                        </div>
-                     </div>
-                  </div>
+           </div>
+
+           <!-- Slide 2 -->
+           <div class="carousel-item">
+               <div class="container-fluid px-0">
+                   <div class="row align-items-center g-0">
+                       <div class="col-lg-6 p-5">
+                           <div class="banner-content">
+                               <span class="d-block text-primary fw-semibold mb-2">Custom Solutions</span>
+                               <h1 class="display-5 fw-bold mb-3">Decorative Glass Panels</h1>
+                               <p class="lead mb-4">Transform your space with our custom decorative glass solutions and artistic installations.</p>
+                           </div>
+                       </div>
+                       <div class="col-lg-6">
+                           <img src="images/window2.png" class="img-fluid w-100" alt="Decorative Glass"
+                               style="max-height: 600px; object-fit: cover;">
+                       </div>
+                   </div>
                </div>
-            </div>
-         </div>
-         <div class="carousel-item">
-            <div class="container-fluid">
-               <div class="carousel-caption">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <div class="text-bg">
-                           <span style="font-size: 14px;">Commercial Glass</span>
-                           <h1 style="font-size: 24px;">Storefront Glass Systems</h1>
-                           <p style="font-size: 14px;">We provide and install storefront glass systems, curtain walls, and glass doors to create modern business environments. Our expertise extends to architectural glass applications for innovative and creative designs.</p>
-                           <a href="contact.html" style="font-size: 14px;">Contact Us</a> <a href="services.html" style="font-size: 14px;">Get a Quote Now</a>
-                        </div>
-                     </div>
-                     <div class="col-md-6">
-                        <div class="text_img">
-                           <figure><img src="images/storefront.png" alt="#" style="width: 100%; height: auto;"/></figure>
-                        </div>
-                     </div>
-                  </div>
+           </div>
+
+           <!-- Slide 3 -->
+           <div class="carousel-item">
+               <div class="container-fluid px-0">
+                   <div class="row align-items-center g-0">
+                       <div class="col-lg-6 p-5">
+                           <div class="banner-content">
+                               <span class="d-block text-primary fw-semibold mb-2">Commercial Glass</span>
+                               <h1 class="display-5 fw-bold mb-3">Storefront Systems</h1>
+                               <p class="lead mb-4">Modern storefront solutions with premium glass and innovative designs.</p>
+                           </div>
+                       </div>
+                       <div class="col-lg-6">
+                           <img src="images/storefront.png" class="img-fluid w-100" alt="Storefront Systems"
+                               style="max-height: 600px; object-fit: cover;">
+                       </div>
+                   </div>
                </div>
-            </div>
-         </div>
-      </div>
-      <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
-      <i class="fa fa-chevron-left" aria-hidden="true"></i>
-      </a>
-      <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
-      <i class="fa fa-chevron-right" aria-hidden="true"></i>
-      </a>
+           </div>
+       </div>
+
+       <!-- Carousel Controls -->
+       <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+       </button>
    </div>
 </section>
-<!-- end banner -->
      <!-- services section -->
 <div class="services">
    <div class="container">
