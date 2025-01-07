@@ -323,6 +323,54 @@ ul.btn li:last-child {
  }
  
  /** banner section **/
+
+ .banner {
+     margin-top: 0;
+     background: #f8f9fa;
+ }
+ 
+ .banner-content {
+     max-width: 600px;
+ }
+ 
+ .navbar-brand {
+     text-decoration: none;
+ }
+ 
+ .nav-link {
+     color: #333;
+     font-size: 1rem;
+     padding: 0.5rem 1rem !important;
+ }
+ 
+ .nav-link:hover {
+     color: #0d6efd;
+ }
+ 
+ .carousel-item {
+     background: #f8f9fa;
+ }
+ 
+ .carousel-control-prev,
+ .carousel-control-next {
+     width: 5%;
+ }
+ 
+ .display-5 {
+     font-size: 2.5rem;
+ }
+ 
+ .lead {
+     font-size: 1.1rem;
+ }
+ 
+ @media (max-width: 992px) {
+     .banner-content {
+         text-align: center;
+         padding: 2rem 1rem;
+     }
+ }
+ 
  .banner_main {
      background: #e1f3fd;
      min-height: 600px; /* Reduced from 650px */
